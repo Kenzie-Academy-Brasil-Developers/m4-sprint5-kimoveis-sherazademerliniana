@@ -11,7 +11,7 @@ export class Schedules {
   @Column()
   date: Date;
 
-  //colocar aqui dentro "time with time zone" para postgresql
+  //colocar aqui dentro "time without time zone" para postgresql
   @Column()
   hour: Date;
 
