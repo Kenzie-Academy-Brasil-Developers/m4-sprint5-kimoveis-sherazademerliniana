@@ -7,9 +7,11 @@ export class Schedules {
   @PrimaryGeneratedColumn("uuid")
   readonly id: string;
 
+  //colocar aqui dentro "date para postgresql"
   @Column()
   date: Date;
 
+  //colocar aqui dentro "time with time zone" para postgresql
   @Column()
   hour: Date;
 
